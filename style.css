@@ -38,8 +38,6 @@ p{
 
     .navbar {
         padding: 0;
-        width: 100%;
-        navbar-expand:
     }
     
     .navbar-nav {
@@ -51,20 +49,18 @@ p{
         margin:5px;
      }
 
-    body nav .navbar {
-        padding: 0px;
-
-    }
-
     .navbar .container{
-        width: 100%;
+        margin: -15%;
+ 
     }
 
     .navbar .container, .navbar-brand{
         display:block;
         text-align: center;
-        margin-left: 0px;
-        margin-right: 0px; 
+        margin: auto;
+        padding: auto;
+        width: 100%;
+
 
     }
 
