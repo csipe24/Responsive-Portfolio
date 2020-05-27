@@ -111,6 +111,13 @@ main .container h2 {
 
 }
 
+.text-ban {
+        position: relative;
+        bottom: 150px;
+        background-color: rgb(128, 34, 128);
+        color: white;
+      }
+
 
 
 @media only screen and (max-width:641px) {
