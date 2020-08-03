@@ -6,13 +6,11 @@ router.get("/", (req, res) => {
   res.render("index.handlebars");
 });
 
-router.get("*", (req, res) => {
-  res.render("index.handlebars");
+router.get("/portfolio", (req, res) => {
+  res.render("portfolio.handlebars");
 });
 
 module.exports = router;
-
-
 
 // Routes
 // // index route loads view.html

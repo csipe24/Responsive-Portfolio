@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ca4fcab9">
+<nav class="navbar navbar-expand-lg navbar-light"  style="background-color: #ca4fcab9">
     <div class="container"> 
         <a class="navbar-brand" href="index.handlebars">Home</a>
         <div>
@@ -7,37 +7,55 @@
               <a class="nav-link" href="blog.handlebars">Blog/Discussion<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio.handlebars">Portfolio</a>
+              <a class="nav-link" href="/portfolio">Portfolio</a>
             </li>
           </ul>
         </div>
         </div>
     </nav>
 
+    {{!-- <nav>
+      <ul>
+        <li><a href="details">Details</a></li>
+        <li><a href="experience">Experience</a></li>
+        <li><a href="skills">Skills</a></li>
+        <li><a href="contact">Contact</a></li>
+      </ul>
+    </nav> --}}
+
+<div class="jumbotron" style="height: 750px; opacity:0.0">
+<div> 
+  <div class="container" align="center">
+
+  </div>
+  </div>
+</div>
+
 <div class="jumbotron">
     <div class="container" align="center">
   <h1 class="display-4">Christopher Sipe</h1>
   <p class="lead"></p>
   <h2>Interactive Resume</h2>
-   <hr class="my-4">
+  <br>
    <div class="row">
     <div class="col-md-4" align="left">
         <h4 align="center">Details</h4>
         <hr class="my-3">
-        <h5>Age:</h5>
-        <p></p>
-        <h5>Location:</h5>
-        <p></p>
-        <h5>Github:</h5>
-        <p></p>
-        <h5>LinkedIn:</h5>
-        <p></p>
+        <br>
+        <h5>Age: 25</h5>
+        <br>
+        <h5>Location: Renton, Washington</h5>
+        <br>
+        <h5>Github: <a href="https://github.com/csipe24">Here</a></h5>
+        <br>
+        <h5>LinkedIn: <a href="https://www.linkedin.com/in/christopher-sipe-4243468b/">Here</a></h5>
+        <br>
        </div>
     <div class="col-md-4">
            <img class="img-fluid" width="auto" src="/images/profilepic.jpg">
        </div>
     <div class="col-md-4">
-        <h4>About me</h4>
+        <h4>About Me</h4>
         <hr class="my-3">
         <p>
             I am a full stack developer who recently graduated from the University of Washington Coding Bootcamp.
@@ -45,7 +63,7 @@
             My interest in coding was sparked by my friends who all thought i would become a great software engineer or software developer!
             My background before learning to code was centered around business management.
             I love finding ways to improve code and i love learning about new coding packages.
-            Please review my portfolio to see my code projects!
+            Please review my portfolio to see my code projects <a href="https://github.com/csipe24">here</a>!
             </p>
        </div>
        </div>
@@ -56,41 +74,64 @@
 <div class="jumbotron">
     <div class="container" align="center">
         <h1 class="display-4">Experience</h1>
-        <hr class="my-4">
-            <div class="row">
+        <br>
+            <div class="row" >
                 <div class="col-md-6">
-                <p>Education</p>
+                <h4>Education/Coursework</h4>
+                <hr class="my-3">
+                <h4>2020</h4>
+                <b>University of Washington</b>
+                <p>Coding Bootcamp Certificate – Web Development</p>
+                <br>
+                <h4>2013 - 2015</h4>
+                <b>University of Washington Tacoma</b>
+                <p>Bachelor of Arts in Business Administration - Major: Business Management</p>
                 </div>
                 <div class="col-md-6">
-                <p>Employment</p>
-                </div>
-            </div>
+                <h4>Employment</h4>
+                <hr class="my-3">
+                <h4>2016 - Current</h4>
+                <b>Legacy Partners</b>
+                <p>Assistant Business Manager</p>
+                </div>     
     </div>
 </div>
+  </div>
 
-<div class="jumbotron">
+
+
+
+
+
+<div class="jumbotron" align="center">
   <h1 class="display-4">Abilities & Skills</h1>
- <hr class="my-4">
+  <hr class="my-4">
+  <div class="row">
+    <div class="col-md-6">
    <p>HTML</p>
    <p>CSS</p>
    <p>Bootstrap Framework</p>
+   <p>Bulma Framework</p>
    <p>Javascript</p>
+   <p>JQuery</p>
+    </div>
+    <div class="col-md-6">
    <p>APIs</p>
    <p>NodeJS</p>
    <p>Express</p>
-   <p>JQuery</p>
-   <p>Command Line Interface</p>
    <p>MySQL</p>
    <p>JSON</p>
    <p>NoSQL</p>
-   {{!-- Additonal Link to github --}}
     </div>
   </div>
+</div>
 
-<div class="jumbotron">
+<div class="jumbotron" align="center">
   <h1 class="display-4">Contact</h1>
   <hr class="my-4">
-  <p>LinkedIn</p>
-  <p>Email</p>
-   <p>Instagram</p>
+  <h3><a href="https://www.linkedin.com/in/christopher-sipe-4243468b/">LinkedIn</a></h3> 
+  <h3><a href="mailto: csipe24@gmail.com">Email</a></h3> 
+  <h3><a href="https://www.instagram.com/christophersipe/">Instagram</a></h3> 
 </div>
+
+
