@@ -10,20 +10,8 @@ router.get("/portfolio", (req, res) => {
   res.render("portfolio.handlebars");
 });
 
+router.get("/blog", (req, res) => {
+  res.render("blog.handlebars");
+});
+
 module.exports = router;
-
-// Routes
-// // index route loads view.html
-// app.get("/", function(req, res) {
-// res.sendFile(path.join(__dirname, "../public/blog.html"));
-//   });
-
-// app.get("/cms", function(req, res) {
-// res.sendFile(path.join(__dirname, "../public/cms.html"));
-//   });
-
-//   // blog route loads blog.html
-// app.get("/blog", function(req, res) {
-// res.sendFile(path.join(__dirname, "../public/blog.html"));
-//   });
-
